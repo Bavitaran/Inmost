@@ -1101,6 +1101,10 @@ select {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1108,10 +1112,6 @@ select {
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
-}
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 .ml-3 {
   margin-left: 0.75rem;
@@ -1185,12 +1185,6 @@ select {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mr-auto {
-  margin-right: auto;
-}
-.ml-auto {
-  margin-left: auto;
-}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1199,6 +1193,12 @@ select {
 }
 .-mt-px {
   margin-top: -1px;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.ml-auto {
+  margin-left: auto;
 }
 .block {
   display: block;
