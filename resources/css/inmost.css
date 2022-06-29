@@ -1,0 +1,152 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  .button1{
+    background-color: inherit;
+    border: none;
+    right: 5%;
+    position: absolute;
+  }
+  .button2{
+    background-color: inherit;
+    border: none;
+    right: 2%;
+    position: absolute;
+  }
+  .transparentBtn{
+    background-color: inherit;
+    border: none;
+  }
+  .form-wrapper{
+      display: inline;
+  }
+
+  .border {
+    border: 2px black solid;
+  }
+  .d-table {
+    display:table;
+  }
+
+  .d-table-cell {
+    display:table-cell;
+  }
+
+  .w-100 {
+    width: 100%;
+  }
+
+  .tar {
+    text-align: right;
+  }
+
+  .selectDept {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left:auto;
+  }
+  .d-block {
+    display:block;
+  }
+  .dashboardAction{
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+  }
+
+  .dateAction{
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex-item + .flex-item {
+    margin-left: 10px;
+  }
+
+  .calculateDashboard{
+    text-align:  center;
+  }
+
+  .flex-item2{
+    margin-left: 10px;
+    border: solid;
+    color: black;
+    background-color: lightblue;
+    width: 200px
+  }
+  .flex-item3{
+    margin-left: 10px;
+    border: solid;
+    color: black;
+    background-color: orange;
+    width: 200px
+  }
+  .form-signin input[type="text"] {
+     margin-bottom: 10px;
+     border-top-left-radius: 0;
+     border-top-right-radius: 0;
+     border-color:#000000;
+     border-width: medium;
+     box-shadow: 0px 0px;
+     border-radius: 15px;
+     width: 150px;
+  }
+  table{
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+    font-weight:normal;
+    border-collapse: collapse;
+  }
+
+  tr {
+    border-Left:1pt white;
+    border-right: 1pt white;
+    border-bottom: 1pt solid black;
+  }
+  .table2{
+    border-width:0px;
+  }
+  .btn1{
+    background-color: white;
+    color: white;
+    shadow: none;
+    border: none;
+  }
